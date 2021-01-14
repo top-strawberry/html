@@ -18,6 +18,10 @@
         <table border="1">
             <caption>这是表格的标题！</caption>
             <tr>
+                <th>name</th>
+                <th colspan="5">Telephone</th>  <!--设置跨列的单元格-->
+            </tr>
+            <tr>
                 <td>1111</td>
                 <td>2222</td>
                 <td>3333</td>
@@ -26,7 +30,14 @@
                 <td>6666</td>
             </tr>
             <tr>
-                <td>1111</td>
+                <th rowspan="2">Telephone</th>  <!--设置跨行的单元格-->
+                <td>2222</td>
+                <td>3333</td>
+                <td>4444</td>
+                <td>5555</td>
+                <td>6666</td>
+            </tr>
+            <tr>
                 <td>2222</td>
                 <td>3333</td>
                 <td>4444</td>
